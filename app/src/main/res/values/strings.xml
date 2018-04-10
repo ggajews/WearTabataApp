@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tabata Timer</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="preparation">Preparation</string>
+    <string name="work">Work!</string>
+    <string name="rest">Rest</string>
+    <string name="cool_down">Cool down</string>
+    <string name="rounds_display">%d/%d</string>
+    <string name="settings_rounds_title">Rounds</string>
+    <string name="settings_work_time_title">Work time</string>
+    <string name="settings_rest_time_title">Rest time</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:background="@color/dark_grey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.grzesiek.tabatatimer.timer.view.TabataActivity"
+    tools:deviceIds="wear"
+    android:padding="@dimen/box_inset_layout_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/inner_frame_layout_padding"
+        android:orientation="vertical"
+        app:boxedEdges="all">
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Wearable.Large"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            tools:text="20"/>
+
+        <TextView
+            android:id="@+id/round_type"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="@style/TextAppearance.Wearable.Medium"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Work!"/>
+
+        <TextView
+            android:id="@+id/rounds_count"
+            android:textAppearance="@style/TextAppearance.Wearable.Small"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="10/13"/>
+
+    </LinearLayout>
+</android.support.wear.widget.BoxInsetLayout>
+
